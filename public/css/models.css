@@ -1,0 +1,119 @@
+html, body {
+                background-color: white;
+                color: black;
+                /*font-family: 'Raleway', sans-serif;*/
+                font-weight: 150;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            nav{
+                font-size: 15px;
+                font-style: bold;
+                font-family: arial;
+            }
+            .bawah{
+                margin-bottom: 5px;
+            }
+            .foot{
+                color: white;
+                text-align: center;
+            }
+            div .foot {
+                padding-top: 30px;
+            }
+            .footer{
+                margin-top: 20px;
+                clear: both;
+                position: relative;
+                z-index: 10;
+            }
+
+            hr{
+                border: none;
+                height: 10px;
+                /* Set the hr color */
+                color: #333; /* old IE */
+                background-color: #333; /* Modern Browsers */
+            }
+
+            .titlex{
+                font-size: 40px;
+                margin-top: -90px;
+                font-family: 'Pacifico', cursive;
+                text-align: center;
+            }
+            .navbar-brand {
+                font-family: 'Pacifico', cursive;
+            }
+            .slidex{
+                margin-top: 100px;
+            }
+            img > .tales{
+                width: 100%;
+                max-height: 300px;
+                opacity: 0.2;
+            }
+            .carousel-inner{
+              width:100%;
+              max-height: 300px !important;
+            }
+            .carousel-caption{
+                top:0px;
+                bottom: auto;
+                color: white;
+            }
+            .card-body{
+                margin-bottom: 10px;
+            }
+            .card2{
+                width: 600px;
+            }
+            .zoom{
+                transition:transfrom .5;
+            }
+            .zoom:hover{
+                transform: scale(1.5);
+            }
+
+
+
+/*new*/
+.cart{
+margin-left: 5px;
+}
+.nav-item{
+    margin-left: 5px;
+}
+.nav-item>button{
+    color:black;
+}
+.product>img{
+    height: 165px;
+    width: 248px;
+}
+.product{
+    max-width: 250px;
+    height: 400px;
+    border: black solid 1px;
+    margin-bottom: 20px;
+}
+.circlecolor {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: black solid 1px;
+  margin-right: 2px;
+  margin-bottom: 1px;
+  display: inline-block;
+}
+.card-title{
+
+}
+.container{
+    min-height: 79%;
+}
